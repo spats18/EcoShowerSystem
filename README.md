@@ -1,0 +1,16 @@
+# EcoShowerSystem
+## PROBLEM DEFINITION
+Showering can account for nearly a fifth of an individual’s daily water usage. “Typically 20 percent of every shower, the duration, is essentially lost,” says Jonah Schein, technical coordinator for homes and buildings for the EPA’s WaterSense program. “The average shower is a little over eight minutes long, so that’s a good chunk of the shower that we’re not actually being able to utilize.” For a standard shower head, every minute wasted equates to 2.5 gallons of water — and insofar as some of it is warm, says Schein, “that’s energy-rich water that we’re running down the drain.” And research conducted by Lawrence Berkeley National Laboratory has suggested that the waste levels may be even higher — 30 percent of shower water overall and 41 percent of “hot water energy.” 
+## METHODOLOGY
+A pressure sensor mat was used. The mat was created in such a way it allows for the current to flow only when the two sheets of aluminum foil touch. The completion of the circuit indicates that a person is standing on the mat. Hence the pressure on the mat sends a signal to the Arduino transmitter through Arduino board. The signal from the transmitter is received by the Arduino receiver placed at the showerhead. This signal is transmitted to the solenoid valve attached to the head which increases the flow of water. All the is communication is carried out through the transmitter and receiver interfaced through an Arduino. As soon as the individual steps off the mat the signal through the Arduino stops and hence the solenoid valve reduces the amount of water flow.
+## WORK DONE
+The smart shower system could reduce the wastage of water by reducing the flow of water when the person is performing non-rinsing activities. A flow chart was prepared for a better understanding of the working of the model and then the code was written on Arduino IDE.
+The code was written on Arduino IDE.
+1. The Eco-Shower system consists a pressure mat sensor. When a user steps on the pressure mat sensor, indicating that they are standing directly under the showerhead, the communication set sends a signal to the solenoid valve, allowing the full volume of water to pass through.
+2. When the user steps off the mat, the set sends another signal to the valve, telling it to rapidly open and close in order to decrease the flow of water.
+
+![image](https://user-images.githubusercontent.com/32418411/133656743-8f36588c-8022-4f4f-bc7a-1788406ce440.png)
+
+Fig. 10 Block diagram representing the working of the IoT based shower system.
+## CONCLUSION
+Water shortage is a problem that is being tackled worldwide using different possible solutions. A major reason causing shortage of freshwater is the daily activity that leads to wastage of water is the usage of showers. A shower continues to run even when the person is not directly under the shower which leads to a lot of wastage of water. We have tried to create a system which can be integrated into the present washrooms to help in reducing the wastage of water. The project aims at developing a pressure sensor mat in order to reduce the flow of water from the shower when the person is away from the shower. This will lead to the reduction in the wastage of water to a great extent. 
